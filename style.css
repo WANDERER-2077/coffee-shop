@@ -1,0 +1,878 @@
+@font-face {
+    font-family: Karla;
+    src: url(FontFamily/karla/Karla-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: 6338px;
+    background-color: #FFFFFF;
+    margin: auto;
+    box-shadow: 0px 10px 20px gray;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+}
+
+.header-img {
+    width: auto;
+    margin-top: 30px;
+    margin-left: 270px;
+    float: left;
+}
+
+ul {
+    margin-left: 479px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.header-a {
+    float: left;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    font-family: Karla;
+    text-decoration: none;
+}
+
+.header-a:hover {
+    text-decoration: underline;
+}
+
+.header-market {
+    float: left;
+    width: 92px;
+    height: 24px;
+    border-bottom: 2px solid rgba(162, 95, 75, 0.3);
+    margin-left: 1078px;
+    margin-top: -20px;
+}
+
+.fa-solid {
+    -webkit-text-stroke: 1.5px #1D1F2E;
+    color: #FFFFFF;
+}
+
+.header-market-a {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.header-market-s {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #1D1F2E;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+    float: right;
+    margin-right: 10px;
+}
+
+.header2 {
+    width: 100.1%;
+    height: 530px;
+    background: #050827;
+    margin-left: -1px;
+}
+
+
+.header2-img2 {
+    height: 530px;
+    width: 940px;
+    background: url(Images/img2.png);
+    margin-left: 250px;
+    overflow: auto;
+}
+
+.header2-img2-h3 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Karla';
+    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 159px;
+}
+
+.header2-img2-h1 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.header2-img2-h4 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.header2-img2-div {
+    height: 18px;
+    width: 231px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
+    margin-left: 355px;
+    margin-top: 48px;
+}
+
+.header2-img2-div-p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+
+.navbar {
+    height: 3486px;
+    width: 940px;
+    margin-left: 250px;
+    margin-top: 120px;
+}
+
+.navbar-h1 {
+    width: 578px;
+    margin-left: 181px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #1D1F2E;
+}
+
+.navbar-p {
+    width: 658px;
+    margin-left: 141px;
+    margin-top: 16px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+}
+
+.navbar-div {
+    width: 133px;
+    height: 30px;
+    border-bottom: 2px solid rgba(162, 95, 75, 0.2);
+    margin-left: 404px;
+    margin-top: 21px;
+}
+
+.navbar-div-p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #A25F4B;
+}
+
+.navbar-theme {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-top: 98px;
+}
+
+.img-1{
+    margin-top: 40px;
+    margin-left: 35px;
+    width: 420px;
+    float: left;
+}
+
+.img-2{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 420px;
+}
+
+.teg1{
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 80px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    float: left;
+}
+
+.teg2{
+    margin-left: 160px;
+    margin-top: 50px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+}
+
+.teg1-p{
+    margin-left: 210px;
+    margin-top: 20px;
+    margin-right: 230px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+    float: left;
+}
+
+.teg2-p{
+    margin-left: 105px;
+    margin-top: 20px;
+    margin-right: 8px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+    float: left;
+}
+
+.teg3-p{
+    margin-top: 28px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.navbar-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1d1f2e;
+    line-height: 160px;
+  }
+  
+  /*  2.1  */
+  .navbar-card2-left {
+    width: 300px;
+    height: 481px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 100px;
+  }
+  
+  .navbar-card2-left-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #1d1f2e;
+    margin-top: 35px;
+  }
+  
+  .navbar-card2-left-s {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    color: #a25f4b;
+    margin-top: 5px;
+    float: left;
+    margin-left: 73px;
+  }
+  
+  .navbar-card2-left-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+  
+  /* 2.2  */
+  .navbar-card2-center {
+    width: 300px;
+    height: 481px;
+    margin-left: 17px;
+    float: left;
+    margin-top: 100px;
+  }
+  
+  .navbar-card2-center-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #1d1f2e;
+    margin-top: 35px;
+  }
+  
+  .navbar-card2-center-s {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #a25f4b;
+    margin-top: 5px;
+    float: left;
+    margin-left: 73px;
+  }
+  
+  .navbar-card2-center-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+  
+  /* 2.3  */
+  .navbar-card2-right {
+    width: 300px;
+    height: 481px;
+    margin-left: 17px;
+    float: left;
+    margin-top: 100px;
+  }
+  
+  .navbar-card2-right-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #1d1f2e;
+    margin-top: 35px;
+  }
+  
+  .navbar-card2-right-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+    float: left;
+    margin-left: 110px;
+    margin-top: 8px;
+  }
+  
+  /* 3.1  */
+  .navbar-card3-left {
+    width: 300px;
+    height: 481px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 66px;
+  }
+  
+  .navbar-card3-left-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #1d1f2e;
+    margin-top: 35px;
+  }
+  
+  .navbar-card3-left-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+    float: left;
+    margin-left: 110px;
+    margin-top: 8px;
+  }
+  
+  /* 3.2  */
+  .navbar-card3-center {
+    width: 300px;
+    height: 481px;
+    margin-left: 17px;
+    float: left;
+    margin-top: 66px;
+  }
+  
+  .navbar-card3-center-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #1d1f2e;
+    margin-top: 35px;
+  }
+  
+  .navbar-card3-center-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+    float: left;
+    margin-left: 110px;
+    margin-top: 8px;
+  }
+  
+  /* 3.3  */
+  .navbar-card3-right {
+    width: 300px;
+    height: 481px;
+    margin-left: 17px;
+    float: left;
+    margin-top: 66px;
+  }
+  
+  .navbar-card3-right-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #1d1f2e;
+    margin-top: 35px;
+  }
+  
+  .navbar-card3-right-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+    float: left;
+    margin-left: 110px;
+    margin-top: 8px;
+  }
+
+  /* 4.1  */
+.navbar-card4-left {
+    width: 300px;
+    height: 481px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 66px;
+  }
+  
+  .navbar-card4-left-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #1d1f2e;
+    margin-top: 35px;
+  }
+  
+  .navbar-card4-left-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+    float: left;
+    margin-left: 110px;
+    margin-top: 8px;
+  }
+  
+  /* 4.2  */
+  .navbar-card4-center {
+    width: 300px;
+    height: 481px;
+    margin-left: 17px;
+    float: left;
+    margin-top: 66px;
+  }
+  
+  .navbar-card4-center-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #1d1f2e;
+    margin-top: 35px;
+  }
+  
+  .navbar-card4-center-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+    float: left;
+    margin-left: 110px;
+    margin-top: 8px;
+  }
+  
+  /* 4.3  */
+  .navbar-card4-right {
+    width: 300px;
+    height: 481px;
+    margin-left: 17px;
+    float: left;
+    margin-top: 66px;
+  }
+  
+  .navbar-card4-right-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #1d1f2e;
+    margin-top: 35px;
+  }
+  
+  .navbar-card4-right-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+    float: left;
+    margin-left: 110px;
+    margin-top: 8px;
+  }
+  
+  .navbar-h2-2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1d1f2e;
+    position: relative;
+    top:150px;
+  }
+
+  .img{
+    width: 280px;
+    margin-left: 10px;
+  }
+
+.navbar2 {
+    width: 100%;
+    height: 280px;
+    margin-top: 265px;
+  }
+  
+  .left {
+    width: 280px;
+    height: 280px;
+    background: url(Images/img15.png);
+    float: left;
+  }
+  
+  .center {
+    float: left;
+    margin-left: 20px;
+    width: 160px;
+    height: auto;
+  }
+  
+  .navbar2-center-img2 {
+    margin-top: 15px;
+    width: auto;
+  }
+  
+  .right {
+    float: left;
+    margin-left: 80px;
+    width: 360px;
+  }
+  
+  .navbar2-right-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1d1f2e;
+    margin-top: 10px;
+  }
+  
+  .navbar2-right-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #1d1f2e;
+    width: 237px;
+    margin-top: 14px;
+  }
+  
+  .navbar2-right-h4 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 15px;
+  }
+  
+  .navbar2-button {
+    height: 36px;
+    width: 173px;
+    background: #1d1f2e;
+    margin-top: 25px;
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  .navbar2-img2 {
+    width: auto;
+    margin-top: 130px;
+    margin-left: -252px;
+  }
+  
+  .navbar2-theme {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1d1f2e;
+    margin-top: 100px;
+  }
+  
+  .navbar3 {
+    width: 100%;
+    height: auto;
+    margin-top: 700px;
+  }
+  
+  .navbar3-left {
+    width: 300px;
+    height: 553px;
+    float: left;
+    margin-left: 250px;
+  }
+  
+  .navbar3-left-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1d1f2e;
+    margin-top: 29px;
+    width: 290px;
+  }
+  
+  .navbar3-left-s {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(29, 31, 46, 0.7);
+    position: relative;
+    top: 10px;
+  }
+  
+  .navbar3-left-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1d1f2e;
+    margin-top: 16px;
+  }
+  
+  .navbar3-center {
+    width: 300px;
+    height: 553px;
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .navbar3-center-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1d1f2e;
+    margin-top: 29px;
+    width: 290px;
+  }
+  
+  .navbar3-center-s {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(29, 31, 46, 0.7);
+    position: relative;
+    top: 10px;
+  }
+  
+  .navbar3-center-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1d1f2e;
+    margin-top: 16px;
+  }
+  
+  .navbar3-right {
+    width: 300px;
+    height: 553px;
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .navbar3-right-h2 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1d1f2e;
+    margin-top: 29px;
+    width: 290px;
+  }
+  
+  .navbar3-right-s {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(29, 31, 46, 0.7);
+    position: relative;
+    top: 10px;
+  }
+  
+  .navbar3-right-p {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1d1f2e;
+    margin-top: 16px;
+  }
+  
+  .navbar3-card {
+    width: 1380px;
+    height: 327px;
+    background: #1D1F2E;
+    position:absolute;
+    top: 5500px;
+    left:65px;
+    overflow: auto;
+  }
+  
+  .navbar3-card img {
+    position:absolute;
+    top: 80px;
+    left: 216px;
+    width: auto;
+  }
+  
+  .container-footer {
+    width: 100%;
+    
+  }
+  
+  .container-footer-img {
+    width: auto;
+    margin-top: 500px;
+    margin-left: 270px;
+  }
